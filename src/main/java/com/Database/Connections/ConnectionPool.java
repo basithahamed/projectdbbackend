@@ -27,8 +27,10 @@ public class ConnectionPool {
 			return connectionPool.getConnection();
 		} catch (SQLException e) {
 			e.printStackTrace();
+			
 		}
+		
 		return null;
 	}
-    
+	
 }
